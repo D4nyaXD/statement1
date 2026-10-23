@@ -53,7 +53,6 @@ int main(int argc, char* argv[]) {
 
     if (*number1 == '0' && *(number1 + 1) == '\0' && *number2 == '0' && *(number2 + 1) == '\0') {
         std::cout << "equal" << std::endl;
-        return 0;
     }
     
     if (number1_1s != number2_1s) {
@@ -62,7 +61,6 @@ int main(int argc, char* argv[]) {
         } else {
             std::cout << "greater" << std::endl;
         }
-        return 0;
     }
 
     const char* number1_dot = find_dot_or_end(number1);
@@ -82,5 +80,4 @@ int main(int argc, char* argv[]) {
         std::cout << "equal" << std::endl;
     }
     
-    return 0;
 }
